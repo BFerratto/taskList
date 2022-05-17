@@ -1,0 +1,125 @@
+.input{
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.input__box{
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px black;
+    font-family: 'Zen Loop';
+    font-weight: bolder;
+}
+
+.input__box:focus{
+    box-shadow: 0 0 10px 1000px rgba(0,0,0,0.1);
+    outline: none;
+}
+
+.input_submit{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    right: 0px;
+    border: none;
+    font-size: 15px;
+    background-color: palegoldenrod;
+    color: black;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+    font-family: 'Zen Loop';
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.input_submit:hover{
+    background-color: rgb(235, 225, 115);
+}
+
+.input_submit:active{
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+}
+
+.tasks{
+    display:flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.tasks__single{
+  display: flex;
+  width: 29.5%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: paleturquoise;
+    
+}
+
+.tasks__single--text{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.644);
+    background-color: paleturquoise;
+
+}
+.tasks__single--text-edit{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.644);
+    background-color: paleturquoise;
+    font-family: 'Zen Loop';
+    color:palevioletred;
+    font-style: italic;
+
+}
+
+.tasks__single--text-edit:focus{
+   outline:none;
+   
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor:pointer;
+}
+.icon:hover{
+   color:palevioletred;
+}
+
+.icon__disabled {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor:not-allowed;
+    color:rgba(0, 0, 0, 0.313)
+
+}
+
+@media (max-width:700px){
+    .input{
+        width:95%;
+    }
+    .tasks{
+        width:95%;
+    }
+    .tasks__single{
+        width:100%;
+    }
+}
