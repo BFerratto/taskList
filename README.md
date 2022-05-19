@@ -1,3 +1,4 @@
+# taskList
 Teaching exercise with React + Typescript, tests in Cypress and deployed on Vercel 
 https://task-list-eight-flax.vercel.app/
 
@@ -47,5 +48,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-# taskList
-# taskList
