@@ -1,3 +1,6 @@
+Teaching exercise with React + Typescript, tests in Cypress and deployed on Vercel 
+https://task-list-eight-flax.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
